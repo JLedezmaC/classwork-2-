@@ -17,7 +17,6 @@ formulario.addEventListener('submit', (event) => {
   //Label
     const label = document.createElement('label');
     label.setAttribute('for', `tarea-${count}`);
-    count++
     label.innerHTML = `${formulario.elements[0].value}-${formulario.elements[1].value}`;
   // Se agregan elementos
   item.appendChild(checkbox);
